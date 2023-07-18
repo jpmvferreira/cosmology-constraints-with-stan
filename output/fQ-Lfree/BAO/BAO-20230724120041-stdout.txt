@@ -1,0 +1,471 @@
+method = sample (Default)
+  sample
+    num_samples = 2500
+    num_warmup = 1500
+    save_warmup = 0 (Default)
+    thin = 1 (Default)
+    adapt
+      engaged = 1 (Default)
+      gamma = 0.050000000000000003 (Default)
+      delta = 0.80000000000000004 (Default)
+      kappa = 0.75 (Default)
+      t0 = 10 (Default)
+      init_buffer = 75 (Default)
+      term_buffer = 50 (Default)
+      window = 25 (Default)
+    algorithm = hmc (Default)
+      hmc
+        engine = nuts (Default)
+          nuts
+            max_depth = 10 (Default)
+        metric = diag_e (Default)
+        metric_file =  (Default)
+        stepsize = 1 (Default)
+        stepsize_jitter = 0 (Default)
+    num_chains = 4
+id = 1 (Default)
+data
+  file = /tmp/tmpt8n0_g6b/crbmzz6f.json
+init = /tmp/tmpt8n0_g6b/r26x0pm_.json
+random
+  seed = 97092
+output
+  file = /home/undercover/teaching/internships/ia/2022-23/Code/output/fQ-Lfree/BAO/BAO-20230724120041.csv
+  diagnostic_file =  (Default)
+  refresh = 100 (Default)
+  sig_figs = -1 (Default)
+  profile_file = profile.csv (Default)
+num_threads = 4 (Default)
+
+
+Gradient evaluation took 0.000598 seconds
+1000 transitions using 10 leapfrog steps per transition would take 5.98 seconds.
+Adjust your expectations accordingly!
+
+
+
+Gradient evaluation took 0.000571 seconds
+1000 transitions using 10 leapfrog steps per transition would take 5.71 seconds.
+Adjust your expectations accordingly!
+
+
+
+Gradient evaluation took 0.000646 seconds
+1000 transitions using 10 leapfrog steps per transition would take 6.46 seconds.
+Adjust your expectations accordingly!
+
+
+
+Gradient evaluation took 0.0011 seconds
+1000 transitions using 10 leapfrog steps per transition would take 11 seconds.
+Adjust your expectations accordingly!
+
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: normal_lpdf: Random variable[1] is -nan, but must be not nan! (in '/home/undercover/teaching/internships/ia/2022-23/Code/model/fQ-Lfree/BAO.stan', line 93, column 2 to column 28)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: normal_lpdf: Random variable[1] is -nan, but must be not nan! (in '/home/undercover/teaching/internships/ia/2022-23/Code/model/fQ-Lfree/BAO.stan', line 93, column 2 to column 28)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: normal_lpdf: Random variable[1] is -nan, but must be not nan! (in '/home/undercover/teaching/internships/ia/2022-23/Code/model/fQ-Lfree/BAO.stan', line 93, column 2 to column 28)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: normal_lpdf: Random variable[1] is -nan, but must be not nan! (in '/home/undercover/teaching/internships/ia/2022-23/Code/model/fQ-Lfree/BAO.stan', line 93, column 2 to column 28)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: normal_lpdf: Random variable[1] is -nan, but must be not nan! (in '/home/undercover/teaching/internships/ia/2022-23/Code/model/fQ-Lfree/BAO.stan', line 93, column 2 to column 28)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: normal_lpdf: Random variable[1] is -nan, but must be not nan! (in '/home/undercover/teaching/internships/ia/2022-23/Code/model/fQ-Lfree/BAO.stan', line 93, column 2 to column 28)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: normal_lpdf: Random variable[1] is -nan, but must be not nan! (in '/home/undercover/teaching/internships/ia/2022-23/Code/model/fQ-Lfree/BAO.stan', line 93, column 2 to column 28)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: normal_lpdf: Random variable[1] is -nan, but must be not nan! (in '/home/undercover/teaching/internships/ia/2022-23/Code/model/fQ-Lfree/BAO.stan', line 93, column 2 to column 28)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: normal_lpdf: Random variable[1] is -nan, but must be not nan! (in '/home/undercover/teaching/internships/ia/2022-23/Code/model/fQ-Lfree/BAO.stan', line 93, column 2 to column 28)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: normal_lpdf: Random variable[1] is -nan, but must be not nan! (in '/home/undercover/teaching/internships/ia/2022-23/Code/model/fQ-Lfree/BAO.stan', line 93, column 2 to column 28)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: normal_lpdf: Random variable[1] is -nan, but must be not nan! (in '/home/undercover/teaching/internships/ia/2022-23/Code/model/fQ-Lfree/BAO.stan', line 93, column 2 to column 28)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: normal_lpdf: Random variable[1] is -nan, but must be not nan! (in '/home/undercover/teaching/internships/ia/2022-23/Code/model/fQ-Lfree/BAO.stan', line 93, column 2 to column 28)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: normal_lpdf: Random variable[1] is -nan, but must be not nan! (in '/home/undercover/teaching/internships/ia/2022-23/Code/model/fQ-Lfree/BAO.stan', line 93, column 2 to column 28)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: normal_lpdf: Random variable[1] is -nan, but must be not nan! (in '/home/undercover/teaching/internships/ia/2022-23/Code/model/fQ-Lfree/BAO.stan', line 93, column 2 to column 28)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: normal_lpdf: Random variable[1] is -nan, but must be not nan! (in '/home/undercover/teaching/internships/ia/2022-23/Code/model/fQ-Lfree/BAO.stan', line 93, column 2 to column 28)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: normal_lpdf: Random variable[1] is -nan, but must be not nan! (in '/home/undercover/teaching/internships/ia/2022-23/Code/model/fQ-Lfree/BAO.stan', line 93, column 2 to column 28)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: normal_lpdf: Random variable[1] is -nan, but must be not nan! (in '/home/undercover/teaching/internships/ia/2022-23/Code/model/fQ-Lfree/BAO.stan', line 93, column 2 to column 28)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: normal_lpdf: Random variable[1] is -nan, but must be not nan! (in '/home/undercover/teaching/internships/ia/2022-23/Code/model/fQ-Lfree/BAO.stan', line 93, column 2 to column 28)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: normal_lpdf: Random variable[1] is -nan, but must be not nan! (in '/home/undercover/teaching/internships/ia/2022-23/Code/model/fQ-Lfree/BAO.stan', line 93, column 2 to column 28)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: normal_lpdf: Random variable[1] is -nan, but must be not nan! (in '/home/undercover/teaching/internships/ia/2022-23/Code/model/fQ-Lfree/BAO.stan', line 93, column 2 to column 28)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Chain [3] Iteration:    1 / 4000 [  0%]  (Warmup)
+Chain [1] Iteration:    1 / 4000 [  0%]  (Warmup)
+Chain [2] Iteration:    1 / 4000 [  0%]  (Warmup)
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: dae: initial state derivative[1] is -nan, but must be finite! (in '/home/undercover/teaching/internships/ia/2022-23/Code/model/fQ-Lfree/BAO.stan', line 72, column 2 to column 61)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Chain [4] Iteration:    1 / 4000 [  0%]  (Warmup)
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: normal_lpdf: Random variable[1] is -nan, but must be not nan! (in '/home/undercover/teaching/internships/ia/2022-23/Code/model/fQ-Lfree/BAO.stan', line 93, column 2 to column 28)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: normal_lpdf: Random variable[1] is -nan, but must be not nan! (in '/home/undercover/teaching/internships/ia/2022-23/Code/model/fQ-Lfree/BAO.stan', line 93, column 2 to column 28)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: normal_lpdf: Random variable[1] is -nan, but must be not nan! (in '/home/undercover/teaching/internships/ia/2022-23/Code/model/fQ-Lfree/BAO.stan', line 93, column 2 to column 28)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: dae: initial state derivative[1] is -nan, but must be finite! (in '/home/undercover/teaching/internships/ia/2022-23/Code/model/fQ-Lfree/BAO.stan', line 72, column 2 to column 61)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: normal_lpdf: Random variable[1] is -nan, but must be not nan! (in '/home/undercover/teaching/internships/ia/2022-23/Code/model/fQ-Lfree/BAO.stan', line 93, column 2 to column 28)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: normal_lpdf: Random variable[1] is -nan, but must be not nan! (in '/home/undercover/teaching/internships/ia/2022-23/Code/model/fQ-Lfree/BAO.stan', line 93, column 2 to column 28)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Chain [2] Iteration:  100 / 4000 [  2%]  (Warmup)
+Chain [3] Iteration:  100 / 4000 [  2%]  (Warmup)
+Chain [4] Iteration:  100 / 4000 [  2%]  (Warmup)
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: normal_lpdf: Random variable[1] is -nan, but must be not nan! (in '/home/undercover/teaching/internships/ia/2022-23/Code/model/fQ-Lfree/BAO.stan', line 93, column 2 to column 28)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Chain [1] Iteration:  100 / 4000 [  2%]  (Warmup)
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: normal_lpdf: Random variable[1] is -nan, but must be not nan! (in '/home/undercover/teaching/internships/ia/2022-23/Code/model/fQ-Lfree/BAO.stan', line 93, column 2 to column 28)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: normal_lpdf: Random variable[1] is -nan, but must be not nan! (in '/home/undercover/teaching/internships/ia/2022-23/Code/model/fQ-Lfree/BAO.stan', line 93, column 2 to column 28)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: normal_lpdf: Random variable[1] is -nan, but must be not nan! (in '/home/undercover/teaching/internships/ia/2022-23/Code/model/fQ-Lfree/BAO.stan', line 93, column 2 to column 28)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: normal_lpdf: Random variable[1] is -nan, but must be not nan! (in '/home/undercover/teaching/internships/ia/2022-23/Code/model/fQ-Lfree/BAO.stan', line 93, column 2 to column 28)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: normal_lpdf: Random variable[1] is -nan, but must be not nan! (in '/home/undercover/teaching/internships/ia/2022-23/Code/model/fQ-Lfree/BAO.stan', line 93, column 2 to column 28)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Chain [1] Iteration:  200 / 4000 [  5%]  (Warmup)
+Chain [4] Iteration:  200 / 4000 [  5%]  (Warmup)
+Chain [2] Iteration:  200 / 4000 [  5%]  (Warmup)
+Chain [3] Iteration:  200 / 4000 [  5%]  (Warmup)
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: normal_lpdf: Random variable[1] is -nan, but must be not nan! (in '/home/undercover/teaching/internships/ia/2022-23/Code/model/fQ-Lfree/BAO.stan', line 93, column 2 to column 28)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: normal_lpdf: Random variable[1] is -nan, but must be not nan! (in '/home/undercover/teaching/internships/ia/2022-23/Code/model/fQ-Lfree/BAO.stan', line 93, column 2 to column 28)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: normal_lpdf: Random variable[1] is -nan, but must be not nan! (in '/home/undercover/teaching/internships/ia/2022-23/Code/model/fQ-Lfree/BAO.stan', line 93, column 2 to column 28)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Chain [1] Iteration:  300 / 4000 [  7%]  (Warmup)
+Chain [3] Iteration:  300 / 4000 [  7%]  (Warmup)
+Chain [4] Iteration:  300 / 4000 [  7%]  (Warmup)
+Chain [2] Iteration:  300 / 4000 [  7%]  (Warmup)
+Chain [1] Iteration:  400 / 4000 [ 10%]  (Warmup)
+Chain [3] Iteration:  400 / 4000 [ 10%]  (Warmup)
+Chain [4] Iteration:  400 / 4000 [ 10%]  (Warmup)
+Chain [2] Iteration:  400 / 4000 [ 10%]  (Warmup)
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: normal_lpdf: Random variable[1] is -nan, but must be not nan! (in '/home/undercover/teaching/internships/ia/2022-23/Code/model/fQ-Lfree/BAO.stan', line 93, column 2 to column 28)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: normal_lpdf: Random variable[1] is -nan, but must be not nan! (in '/home/undercover/teaching/internships/ia/2022-23/Code/model/fQ-Lfree/BAO.stan', line 93, column 2 to column 28)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Chain [1] Iteration:  500 / 4000 [ 12%]  (Warmup)
+Chain [3] Iteration:  500 / 4000 [ 12%]  (Warmup)
+Chain [2] Iteration:  500 / 4000 [ 12%]  (Warmup)
+Chain [4] Iteration:  500 / 4000 [ 12%]  (Warmup)
+Chain [1] Iteration:  600 / 4000 [ 15%]  (Warmup)
+Chain [3] Iteration:  600 / 4000 [ 15%]  (Warmup)
+Chain [2] Iteration:  600 / 4000 [ 15%]  (Warmup)
+Chain [4] Iteration:  600 / 4000 [ 15%]  (Warmup)
+Chain [1] Iteration:  700 / 4000 [ 17%]  (Warmup)
+Chain [2] Iteration:  700 / 4000 [ 17%]  (Warmup)
+Chain [3] Iteration:  700 / 4000 [ 17%]  (Warmup)
+Chain [4] Iteration:  700 / 4000 [ 17%]  (Warmup)
+Chain [1] Iteration:  800 / 4000 [ 20%]  (Warmup)
+Chain [2] Iteration:  800 / 4000 [ 20%]  (Warmup)
+Chain [3] Iteration:  800 / 4000 [ 20%]  (Warmup)
+Chain [1] Iteration:  900 / 4000 [ 22%]  (Warmup)
+Chain [4] Iteration:  800 / 4000 [ 20%]  (Warmup)
+Chain [2] Iteration:  900 / 4000 [ 22%]  (Warmup)
+Chain [3] Iteration:  900 / 4000 [ 22%]  (Warmup)
+Chain [1] Iteration: 1000 / 4000 [ 25%]  (Warmup)
+Chain [4] Iteration:  900 / 4000 [ 22%]  (Warmup)
+Chain [2] Iteration: 1000 / 4000 [ 25%]  (Warmup)
+Chain [3] Iteration: 1000 / 4000 [ 25%]  (Warmup)
+Chain [1] Iteration: 1100 / 4000 [ 27%]  (Warmup)
+Chain [4] Iteration: 1000 / 4000 [ 25%]  (Warmup)
+Chain [2] Iteration: 1100 / 4000 [ 27%]  (Warmup)
+Chain [3] Iteration: 1100 / 4000 [ 27%]  (Warmup)
+Chain [1] Iteration: 1200 / 4000 [ 30%]  (Warmup)
+Chain [4] Iteration: 1100 / 4000 [ 27%]  (Warmup)
+Chain [2] Iteration: 1200 / 4000 [ 30%]  (Warmup)
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: normal_lpdf: Random variable[1] is -nan, but must be not nan! (in '/home/undercover/teaching/internships/ia/2022-23/Code/model/fQ-Lfree/BAO.stan', line 93, column 2 to column 28)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Chain [3] Iteration: 1200 / 4000 [ 30%]  (Warmup)
+Chain [1] Iteration: 1300 / 4000 [ 32%]  (Warmup)
+Chain [4] Iteration: 1200 / 4000 [ 30%]  (Warmup)
+Chain [2] Iteration: 1300 / 4000 [ 32%]  (Warmup)
+Chain [3] Iteration: 1300 / 4000 [ 32%]  (Warmup)
+Chain [1] Iteration: 1400 / 4000 [ 35%]  (Warmup)
+Chain [4] Iteration: 1300 / 4000 [ 32%]  (Warmup)
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: normal_lpdf: Random variable[1] is -nan, but must be not nan! (in '/home/undercover/teaching/internships/ia/2022-23/Code/model/fQ-Lfree/BAO.stan', line 93, column 2 to column 28)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Chain [2] Iteration: 1400 / 4000 [ 35%]  (Warmup)
+Chain [3] Iteration: 1400 / 4000 [ 35%]  (Warmup)
+Chain [1] Iteration: 1500 / 4000 [ 37%]  (Warmup)
+Chain [1] Iteration: 1501 / 4000 [ 37%]  (Sampling)
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: normal_lpdf: Random variable[1] is -nan, but must be not nan! (in '/home/undercover/teaching/internships/ia/2022-23/Code/model/fQ-Lfree/BAO.stan', line 93, column 2 to column 28)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: normal_lpdf: Random variable[1] is -nan, but must be not nan! (in '/home/undercover/teaching/internships/ia/2022-23/Code/model/fQ-Lfree/BAO.stan', line 93, column 2 to column 28)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Chain [4] Iteration: 1400 / 4000 [ 35%]  (Warmup)
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: normal_lpdf: Random variable[1] is -nan, but must be not nan! (in '/home/undercover/teaching/internships/ia/2022-23/Code/model/fQ-Lfree/BAO.stan', line 93, column 2 to column 28)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: normal_lpdf: Random variable[1] is -nan, but must be not nan! (in '/home/undercover/teaching/internships/ia/2022-23/Code/model/fQ-Lfree/BAO.stan', line 93, column 2 to column 28)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Chain [2] Iteration: 1500 / 4000 [ 37%]  (Warmup)
+Chain [2] Iteration: 1501 / 4000 [ 37%]  (Sampling)
+Chain [3] Iteration: 1500 / 4000 [ 37%]  (Warmup)
+Chain [3] Iteration: 1501 / 4000 [ 37%]  (Sampling)
+Chain [4] Iteration: 1500 / 4000 [ 37%]  (Warmup)
+Chain [4] Iteration: 1501 / 4000 [ 37%]  (Sampling)
+Chain [1] Iteration: 1600 / 4000 [ 40%]  (Sampling)
+Chain [2] Iteration: 1600 / 4000 [ 40%]  (Sampling)
+Chain [3] Iteration: 1600 / 4000 [ 40%]  (Sampling)
+Chain [4] Iteration: 1600 / 4000 [ 40%]  (Sampling)
+Chain [2] Iteration: 1700 / 4000 [ 42%]  (Sampling)
+Chain [1] Iteration: 1700 / 4000 [ 42%]  (Sampling)
+Chain [4] Iteration: 1700 / 4000 [ 42%]  (Sampling)
+Chain [3] Iteration: 1700 / 4000 [ 42%]  (Sampling)
+Chain [2] Iteration: 1800 / 4000 [ 45%]  (Sampling)
+Chain [1] Iteration: 1800 / 4000 [ 45%]  (Sampling)
+Chain [4] Iteration: 1800 / 4000 [ 45%]  (Sampling)
+Chain [2] Iteration: 1900 / 4000 [ 47%]  (Sampling)
+Chain [3] Iteration: 1800 / 4000 [ 45%]  (Sampling)
+Chain [4] Iteration: 1900 / 4000 [ 47%]  (Sampling)
+Chain [2] Iteration: 2000 / 4000 [ 50%]  (Sampling)
+Chain [1] Iteration: 1900 / 4000 [ 47%]  (Sampling)
+Chain [3] Iteration: 1900 / 4000 [ 47%]  (Sampling)
+Chain [4] Iteration: 2000 / 4000 [ 50%]  (Sampling)
+Chain [2] Iteration: 2100 / 4000 [ 52%]  (Sampling)
+Chain [1] Iteration: 2000 / 4000 [ 50%]  (Sampling)
+Chain [3] Iteration: 2000 / 4000 [ 50%]  (Sampling)
+Chain [2] Iteration: 2200 / 4000 [ 55%]  (Sampling)
+Chain [4] Iteration: 2100 / 4000 [ 52%]  (Sampling)
+Chain [3] Iteration: 2100 / 4000 [ 52%]  (Sampling)
+Chain [1] Iteration: 2100 / 4000 [ 52%]  (Sampling)
+Chain [4] Iteration: 2200 / 4000 [ 55%]  (Sampling)
+Chain [2] Iteration: 2300 / 4000 [ 57%]  (Sampling)
+Chain [4] Iteration: 2300 / 4000 [ 57%]  (Sampling)
+Chain [3] Iteration: 2200 / 4000 [ 55%]  (Sampling)
+Chain [2] Iteration: 2400 / 4000 [ 60%]  (Sampling)
+Chain [1] Iteration: 2200 / 4000 [ 55%]  (Sampling)
+Chain [4] Iteration: 2400 / 4000 [ 60%]  (Sampling)
+Chain [2] Iteration: 2500 / 4000 [ 62%]  (Sampling)
+Chain [3] Iteration: 2300 / 4000 [ 57%]  (Sampling)
+Chain [1] Iteration: 2300 / 4000 [ 57%]  (Sampling)
+Chain [4] Iteration: 2500 / 4000 [ 62%]  (Sampling)
+Chain [2] Iteration: 2600 / 4000 [ 65%]  (Sampling)
+Chain [3] Iteration: 2400 / 4000 [ 60%]  (Sampling)
+Chain [4] Iteration: 2600 / 4000 [ 65%]  (Sampling)
+Chain [1] Iteration: 2400 / 4000 [ 60%]  (Sampling)
+Chain [2] Iteration: 2700 / 4000 [ 67%]  (Sampling)
+Chain [3] Iteration: 2500 / 4000 [ 62%]  (Sampling)
+Chain [4] Iteration: 2700 / 4000 [ 67%]  (Sampling)
+Chain [2] Iteration: 2800 / 4000 [ 70%]  (Sampling)
+Chain [1] Iteration: 2500 / 4000 [ 62%]  (Sampling)
+Chain [3] Iteration: 2600 / 4000 [ 65%]  (Sampling)
+Chain [4] Iteration: 2800 / 4000 [ 70%]  (Sampling)
+Chain [2] Iteration: 2900 / 4000 [ 72%]  (Sampling)
+Chain [3] Iteration: 2700 / 4000 [ 67%]  (Sampling)
+Chain [1] Iteration: 2600 / 4000 [ 65%]  (Sampling)
+Chain [4] Iteration: 2900 / 4000 [ 72%]  (Sampling)
+Chain [2] Iteration: 3000 / 4000 [ 75%]  (Sampling)
+Chain [4] Iteration: 3000 / 4000 [ 75%]  (Sampling)
+Chain [3] Iteration: 2800 / 4000 [ 70%]  (Sampling)
+Chain [2] Iteration: 3100 / 4000 [ 77%]  (Sampling)
+Chain [1] Iteration: 2700 / 4000 [ 67%]  (Sampling)
+Chain [4] Iteration: 3100 / 4000 [ 77%]  (Sampling)
+Chain [2] Iteration: 3200 / 4000 [ 80%]  (Sampling)
+Chain [3] Iteration: 2900 / 4000 [ 72%]  (Sampling)
+Chain [4] Iteration: 3200 / 4000 [ 80%]  (Sampling)
+Chain [1] Iteration: 2800 / 4000 [ 70%]  (Sampling)
+Chain [2] Iteration: 3300 / 4000 [ 82%]  (Sampling)
+Chain [3] Iteration: 3000 / 4000 [ 75%]  (Sampling)
+Chain [4] Iteration: 3300 / 4000 [ 82%]  (Sampling)
+Chain [2] Iteration: 3400 / 4000 [ 85%]  (Sampling)
+Chain [1] Iteration: 2900 / 4000 [ 72%]  (Sampling)
+Chain [3] Iteration: 3100 / 4000 [ 77%]  (Sampling)
+Chain [4] Iteration: 3400 / 4000 [ 85%]  (Sampling)
+Chain [2] Iteration: 3500 / 4000 [ 87%]  (Sampling)
+Chain [4] Iteration: 3500 / 4000 [ 87%]  (Sampling)
+Chain [3] Iteration: 3200 / 4000 [ 80%]  (Sampling)
+Chain [1] Iteration: 3000 / 4000 [ 75%]  (Sampling)
+Chain [2] Iteration: 3600 / 4000 [ 90%]  (Sampling)
+Chain [4] Iteration: 3600 / 4000 [ 90%]  (Sampling)
+Chain [2] Iteration: 3700 / 4000 [ 92%]  (Sampling)
+Chain [3] Iteration: 3300 / 4000 [ 82%]  (Sampling)
+Chain [1] Iteration: 3100 / 4000 [ 77%]  (Sampling)
+Chain [2] Iteration: 3800 / 4000 [ 95%]  (Sampling)
+Chain [4] Iteration: 3700 / 4000 [ 92%]  (Sampling)
+Chain [3] Iteration: 3400 / 4000 [ 85%]  (Sampling)
+Chain [2] Iteration: 3900 / 4000 [ 97%]  (Sampling)
+Chain [1] Iteration: 3200 / 4000 [ 80%]  (Sampling)
+Chain [4] Iteration: 3800 / 4000 [ 95%]  (Sampling)
+Chain [3] Iteration: 3500 / 4000 [ 87%]  (Sampling)
+Chain [2] Iteration: 4000 / 4000 [100%]  (Sampling)
+
+ Elapsed Time: 8.922 seconds (Warm-up)
+               14.25 seconds (Sampling)
+               23.172 seconds (Total)
+
+Chain [4] Iteration: 3900 / 4000 [ 97%]  (Sampling)
+Chain [1] Iteration: 3300 / 4000 [ 82%]  (Sampling)
+Chain [3] Iteration: 3600 / 4000 [ 90%]  (Sampling)
+Chain [4] Iteration: 4000 / 4000 [100%]  (Sampling)
+
+ Elapsed Time: 9.289 seconds (Warm-up)
+               14.586 seconds (Sampling)
+               23.875 seconds (Total)
+
+Chain [3] Iteration: 3700 / 4000 [ 92%]  (Sampling)
+Chain [1] Iteration: 3400 / 4000 [ 85%]  (Sampling)
+Chain [3] Iteration: 3800 / 4000 [ 95%]  (Sampling)
+Chain [1] Iteration: 3500 / 4000 [ 87%]  (Sampling)
+Chain [3] Iteration: 3900 / 4000 [ 97%]  (Sampling)
+Chain [1] Iteration: 3600 / 4000 [ 90%]  (Sampling)
+Chain [3] Iteration: 4000 / 4000 [100%]  (Sampling)
+
+ Elapsed Time: 9.162 seconds (Warm-up)
+               16.936 seconds (Sampling)
+               26.098 seconds (Total)
+
+Chain [1] Iteration: 3700 / 4000 [ 92%]  (Sampling)
+Chain [1] Iteration: 3800 / 4000 [ 95%]  (Sampling)
+Chain [1] Iteration: 3900 / 4000 [ 97%]  (Sampling)
+Chain [1] Iteration: 4000 / 4000 [100%]  (Sampling)
+
+ Elapsed Time: 8.556 seconds (Warm-up)
+               20.052 seconds (Sampling)
+               28.608 seconds (Total)
+

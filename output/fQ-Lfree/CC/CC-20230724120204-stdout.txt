@@ -1,0 +1,346 @@
+method = sample (Default)
+  sample
+    num_samples = 2500
+    num_warmup = 1500
+    save_warmup = 0 (Default)
+    thin = 1 (Default)
+    adapt
+      engaged = 1 (Default)
+      gamma = 0.050000000000000003 (Default)
+      delta = 0.80000000000000004 (Default)
+      kappa = 0.75 (Default)
+      t0 = 10 (Default)
+      init_buffer = 75 (Default)
+      term_buffer = 50 (Default)
+      window = 25 (Default)
+    algorithm = hmc (Default)
+      hmc
+        engine = nuts (Default)
+          nuts
+            max_depth = 10 (Default)
+        metric = diag_e (Default)
+        metric_file =  (Default)
+        stepsize = 1 (Default)
+        stepsize_jitter = 0 (Default)
+    num_chains = 4
+id = 1 (Default)
+data
+  file = /tmp/tmpk70t8efj/6y26nmip.json
+init = /tmp/tmpk70t8efj/bsoyusr0.json
+random
+  seed = 66295
+output
+  file = /home/undercover/teaching/internships/ia/2022-23/Code/output/fQ-Lfree/CC/CC-20230724120204.csv
+  diagnostic_file =  (Default)
+  refresh = 100 (Default)
+  sig_figs = -1 (Default)
+  profile_file = profile.csv (Default)
+num_threads = 4 (Default)
+
+
+Gradient evaluation took 0.000158 seconds
+1000 transitions using 10 leapfrog steps per transition would take 1.58 seconds.
+Adjust your expectations accordingly!
+
+
+
+Gradient evaluation took 0.00013 seconds
+1000 transitions using 10 leapfrog steps per transition would take 1.3 seconds.
+Adjust your expectations accordingly!
+
+
+
+Gradient evaluation took 0.000129 seconds
+1000 transitions using 10 leapfrog steps per transition would take 1.29 seconds.
+Adjust your expectations accordingly!
+
+
+
+Gradient evaluation took 0.000129 seconds
+1000 transitions using 10 leapfrog steps per transition would take 1.29 seconds.
+Adjust your expectations accordingly!
+
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: Error in function boost::math::lambert_w0<double>: Expected z >= -e^-1 (-0.367879...) but got -15.08118504767423. (in '/home/undercover/teaching/internships/ia/2022-23/Code/model/fQ-Lfree/CC.stan', line 41, column 2 to column 48)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: Error in function boost::math::lambert_w0<double>: Expected z >= -e^-1 (-0.367879...) but got -14.401135360575562. (in '/home/undercover/teaching/internships/ia/2022-23/Code/model/fQ-Lfree/CC.stan', line 41, column 2 to column 48)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: Error in function boost::math::lambert_w0<double>: Expected z >= -e^-1 (-0.367879...) but got -48.806787971132898. (in '/home/undercover/teaching/internships/ia/2022-23/Code/model/fQ-Lfree/CC.stan', line 41, column 2 to column 48)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: Error in function boost::math::lambert_w0<double>: Expected z >= -e^-1 (-0.367879...) but got -10.219942570082711. (in '/home/undercover/teaching/internships/ia/2022-23/Code/model/fQ-Lfree/CC.stan', line 41, column 2 to column 48)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+
+Exception: Error in function boost::math::lambert_w0<double>: Expected z >= -e^-1 (-0.367879...) but got -15.128335354524497. (in '/home/undercover/teaching/internships/ia/2022-23/Code/model/fQ-Lfree/CC.stan', line 41, column 2 to column 48)Exception: Error in function boost::math::lambert_w0<double>: Expected z >= -e^-1 (-0.367879...) but got -9.8823000809635051. (in '/home/undercover/teaching/internships/ia/2022-23/Code/model/fQ-Lfree/CC.stan', line 41, column 2 to column 48)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: Error in function boost::math::lambert_w0<double>: Expected z >= -e^-1 (-0.367879...) but got -0.42048805780718151. (in '/home/undercover/teaching/internships/ia/2022-23/Code/model/fQ-Lfree/CC.stan', line 41, column 2 to column 48)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: Error in function boost::math::lambert_w0<double>: Expected z >= -e^-1 (-0.367879...) but got -9.9642632728653489. (in '/home/undercover/teaching/internships/ia/2022-23/Code/model/fQ-Lfree/CC.stan', line 41, column 2 to column 48)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Chain [1] Iteration:    1 / 4000 [  0%]  (Warmup)
+Chain [3] Iteration:    1 / 4000 [  0%]  (Warmup)
+Chain [4] Iteration:    1 / 4000 [  0%]  (Warmup)
+
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: Error in function boost::math::lambert_w0<double>: Expected z >= -e^-1 (-0.367879...) but got -4.599752162779569. (in '/home/undercover/teaching/internships/ia/2022-23/Code/model/fQ-Lfree/CC.stan', line 41, column 2 to column 48)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: Error in function boost::math::lambert_w0<double>: Expected z >= -e^-1 (-0.367879...) but got -0.39668822774890106. (in '/home/undercover/teaching/internships/ia/2022-23/Code/model/fQ-Lfree/CC.stan', line 41, column 2 to column 48)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: Error in function boost::math::lambert_w0<double>: Expected z >= -e^-1 (-0.367879...) but got -1.8501315530900841e+216. (in '/home/undercover/teaching/internships/ia/2022-23/Code/model/fQ-Lfree/CC.stan', line 41, column 2 to column 48)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: Error in function boost::math::lambert_w0<double>: Expected z >= -e^-1 (-0.367879...) but got -198106.99541328239. (in '/home/undercover/teaching/internships/ia/2022-23/Code/model/fQ-Lfree/CC.stan', line 41, column 2 to column 48)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Chain [2] Iteration:    1 / 4000 [  0%]  (Warmup)
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: Error in function boost::math::lambert_w0<double>: Expected z >= -e^-1 (-0.367879...) but got -1.1739687821333878e+176. (in '/home/undercover/teaching/internships/ia/2022-23/Code/model/fQ-Lfree/CC.stan', line 41, column 2 to column 48)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: Error in function boost::math::lambert_w0<double>: Expected z >= -e^-1 (-0.367879...) but got -301.06299785351143. (in '/home/undercover/teaching/internships/ia/2022-23/Code/model/fQ-Lfree/CC.stan', line 41, column 2 to column 48)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Chain [2] Iteration:  100 / 4000 [  2%]  (Warmup)
+Chain [3] Iteration:  100 / 4000 [  2%]  (Warmup)
+Chain [1] Iteration:  100 / 4000 [  2%]  (Warmup)
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: Error in function boost::math::lambert_w0<double>: Expected z >= -e^-1 (-0.367879...) but got -2634.0437526888809. (in '/home/undercover/teaching/internships/ia/2022-23/Code/model/fQ-Lfree/CC.stan', line 41, column 2 to column 48)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Chain [4] Iteration:  100 / 4000 [  2%]  (Warmup)
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: Error in function boost::math::lambert_w0<double>: Expected z >= -e^-1 (-0.367879...) but got -3294526236.7670846. (in '/home/undercover/teaching/internships/ia/2022-23/Code/model/fQ-Lfree/CC.stan', line 41, column 2 to column 48)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: Error in function boost::math::lambert_w0<double>: Expected z >= -e^-1 (-0.367879...) but got -1146.6339046543787. (in '/home/undercover/teaching/internships/ia/2022-23/Code/model/fQ-Lfree/CC.stan', line 41, column 2 to column 48)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Chain [3] Iteration:  200 / 4000 [  5%]  (Warmup)
+Chain [2] Iteration:  200 / 4000 [  5%]  (Warmup)
+Chain [1] Iteration:  200 / 4000 [  5%]  (Warmup)
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: Error in function boost::math::lambert_w0<double>: Expected z >= -e^-1 (-0.367879...) but got -1.0787779586901414. (in '/home/undercover/teaching/internships/ia/2022-23/Code/model/fQ-Lfree/CC.stan', line 41, column 2 to column 48)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Chain [4] Iteration:  200 / 4000 [  5%]  (Warmup)
+Chain [3] Iteration:  300 / 4000 [  7%]  (Warmup)
+Chain [1] Iteration:  300 / 4000 [  7%]  (Warmup)
+Chain [2] Iteration:  300 / 4000 [  7%]  (Warmup)
+Chain [4] Iteration:  300 / 4000 [  7%]  (Warmup)
+Chain [1] Iteration:  400 / 4000 [ 10%]  (Warmup)
+Chain [3] Iteration:  400 / 4000 [ 10%]  (Warmup)
+Chain [2] Iteration:  400 / 4000 [ 10%]  (Warmup)
+Chain [4] Iteration:  400 / 4000 [ 10%]  (Warmup)
+Chain [1] Iteration:  500 / 4000 [ 12%]  (Warmup)
+Chain [3] Iteration:  500 / 4000 [ 12%]  (Warmup)
+Chain [2] Iteration:  500 / 4000 [ 12%]  (Warmup)
+Chain [4] Iteration:  500 / 4000 [ 12%]  (Warmup)
+Chain [3] Iteration:  600 / 4000 [ 15%]  (Warmup)
+Chain [1] Iteration:  600 / 4000 [ 15%]  (Warmup)
+Chain [2] Iteration:  600 / 4000 [ 15%]  (Warmup)
+Chain [4] Iteration:  600 / 4000 [ 15%]  (Warmup)
+Chain [3] Iteration:  700 / 4000 [ 17%]  (Warmup)
+Chain [1] Iteration:  700 / 4000 [ 17%]  (Warmup)
+Chain [2] Iteration:  700 / 4000 [ 17%]  (Warmup)
+Chain [4] Iteration:  700 / 4000 [ 17%]  (Warmup)
+Chain [3] Iteration:  800 / 4000 [ 20%]  (Warmup)
+Chain [1] Iteration:  800 / 4000 [ 20%]  (Warmup)
+Chain [2] Iteration:  800 / 4000 [ 20%]  (Warmup)
+Chain [4] Iteration:  800 / 4000 [ 20%]  (Warmup)
+Chain [3] Iteration:  900 / 4000 [ 22%]  (Warmup)
+Chain [1] Iteration:  900 / 4000 [ 22%]  (Warmup)
+Chain [2] Iteration:  900 / 4000 [ 22%]  (Warmup)
+Chain [4] Iteration:  900 / 4000 [ 22%]  (Warmup)
+Chain [3] Iteration: 1000 / 4000 [ 25%]  (Warmup)
+Chain [1] Iteration: 1000 / 4000 [ 25%]  (Warmup)
+Chain [2] Iteration: 1000 / 4000 [ 25%]  (Warmup)
+Chain [4] Iteration: 1000 / 4000 [ 25%]  (Warmup)
+Chain [3] Iteration: 1100 / 4000 [ 27%]  (Warmup)
+Chain [1] Iteration: 1100 / 4000 [ 27%]  (Warmup)
+Chain [2] Iteration: 1100 / 4000 [ 27%]  (Warmup)
+Chain [3] Iteration: 1200 / 4000 [ 30%]  (Warmup)
+Chain [4] Iteration: 1100 / 4000 [ 27%]  (Warmup)
+Chain [1] Iteration: 1200 / 4000 [ 30%]  (Warmup)
+Chain [2] Iteration: 1200 / 4000 [ 30%]  (Warmup)
+Chain [3] Iteration: 1300 / 4000 [ 32%]  (Warmup)
+Chain [4] Iteration: 1200 / 4000 [ 30%]  (Warmup)
+Chain [1] Iteration: 1300 / 4000 [ 32%]  (Warmup)
+Chain [2] Iteration: 1300 / 4000 [ 32%]  (Warmup)
+Chain [3] Iteration: 1400 / 4000 [ 35%]  (Warmup)
+Chain [4] Iteration: 1300 / 4000 [ 32%]  (Warmup)
+Chain [1] Iteration: 1400 / 4000 [ 35%]  (Warmup)
+Chain [2] Iteration: 1400 / 4000 [ 35%]  (Warmup)
+Chain [3] Iteration: 1500 / 4000 [ 37%]  (Warmup)
+Chain [4] Iteration: 1400 / 4000 [ 35%]  (Warmup)
+Chain [3] Iteration: 1501 / 4000 [ 37%]  (Sampling)
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: Error in function boost::math::lambert_w0<double>: Expected z >= -e^-1 (-0.367879...) but got -1.8125995542309918. (in '/home/undercover/teaching/internships/ia/2022-23/Code/model/fQ-Lfree/CC.stan', line 41, column 2 to column 48)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Chain [1] Iteration: 1500 / 4000 [ 37%]  (Warmup)
+Chain [1] Iteration: 1501 / 4000 [ 37%]  (Sampling)
+Chain [2] Iteration: 1500 / 4000 [ 37%]  (Warmup)
+Chain [2] Iteration: 1501 / 4000 [ 37%]  (Sampling)
+Chain [4] Iteration: 1500 / 4000 [ 37%]  (Warmup)
+Chain [4] Iteration: 1501 / 4000 [ 37%]  (Sampling)
+Chain [3] Iteration: 1600 / 4000 [ 40%]  (Sampling)
+Chain [1] Iteration: 1600 / 4000 [ 40%]  (Sampling)
+Chain [2] Iteration: 1600 / 4000 [ 40%]  (Sampling)
+Chain [4] Iteration: 1600 / 4000 [ 40%]  (Sampling)
+Chain [3] Iteration: 1700 / 4000 [ 42%]  (Sampling)
+Chain [1] Iteration: 1700 / 4000 [ 42%]  (Sampling)
+Chain [2] Iteration: 1700 / 4000 [ 42%]  (Sampling)
+Chain [3] Iteration: 1800 / 4000 [ 45%]  (Sampling)
+Chain [4] Iteration: 1700 / 4000 [ 42%]  (Sampling)
+Chain [1] Iteration: 1800 / 4000 [ 45%]  (Sampling)
+Chain [2] Iteration: 1800 / 4000 [ 45%]  (Sampling)
+Chain [3] Iteration: 1900 / 4000 [ 47%]  (Sampling)
+Chain [4] Iteration: 1800 / 4000 [ 45%]  (Sampling)
+Chain [1] Iteration: 1900 / 4000 [ 47%]  (Sampling)
+Chain [3] Iteration: 2000 / 4000 [ 50%]  (Sampling)
+Chain [2] Iteration: 1900 / 4000 [ 47%]  (Sampling)
+Chain [1] Iteration: 2000 / 4000 [ 50%]  (Sampling)
+Chain [4] Iteration: 1900 / 4000 [ 47%]  (Sampling)
+Chain [3] Iteration: 2100 / 4000 [ 52%]  (Sampling)
+Chain [1] Iteration: 2100 / 4000 [ 52%]  (Sampling)
+Chain [2] Iteration: 2000 / 4000 [ 50%]  (Sampling)
+Chain [4] Iteration: 2000 / 4000 [ 50%]  (Sampling)
+Chain [3] Iteration: 2200 / 4000 [ 55%]  (Sampling)
+Chain [1] Iteration: 2200 / 4000 [ 55%]  (Sampling)
+Chain [4] Iteration: 2100 / 4000 [ 52%]  (Sampling)
+Chain [3] Iteration: 2300 / 4000 [ 57%]  (Sampling)
+Chain [2] Iteration: 2100 / 4000 [ 52%]  (Sampling)
+Chain [1] Iteration: 2300 / 4000 [ 57%]  (Sampling)
+Chain [4] Iteration: 2200 / 4000 [ 55%]  (Sampling)
+Chain [3] Iteration: 2400 / 4000 [ 60%]  (Sampling)
+Chain [2] Iteration: 2200 / 4000 [ 55%]  (Sampling)
+Chain [1] Iteration: 2400 / 4000 [ 60%]  (Sampling)
+Chain [4] Iteration: 2300 / 4000 [ 57%]  (Sampling)
+Chain [3] Iteration: 2500 / 4000 [ 62%]  (Sampling)
+Chain [2] Iteration: 2300 / 4000 [ 57%]  (Sampling)
+Chain [1] Iteration: 2500 / 4000 [ 62%]  (Sampling)
+Chain [2] Iteration: 2400 / 4000 [ 60%]  (Sampling)
+Chain [4] Iteration: 2400 / 4000 [ 60%]  (Sampling)
+Chain [3] Iteration: 2600 / 4000 [ 65%]  (Sampling)
+Chain [2] Iteration: 2500 / 4000 [ 62%]  (Sampling)
+Chain [1] Iteration: 2600 / 4000 [ 65%]  (Sampling)
+Chain [4] Iteration: 2500 / 4000 [ 62%]  (Sampling)
+Chain [3] Iteration: 2700 / 4000 [ 67%]  (Sampling)
+Chain [2] Iteration: 2600 / 4000 [ 65%]  (Sampling)
+Chain [1] Iteration: 2700 / 4000 [ 67%]  (Sampling)
+Chain [3] Iteration: 2800 / 4000 [ 70%]  (Sampling)
+Chain [4] Iteration: 2600 / 4000 [ 65%]  (Sampling)
+Chain [2] Iteration: 2700 / 4000 [ 67%]  (Sampling)
+Chain [1] Iteration: 2800 / 4000 [ 70%]  (Sampling)
+Chain [4] Iteration: 2700 / 4000 [ 67%]  (Sampling)
+Chain [3] Iteration: 2900 / 4000 [ 72%]  (Sampling)
+Chain [2] Iteration: 2800 / 4000 [ 70%]  (Sampling)
+Chain [1] Iteration: 2900 / 4000 [ 72%]  (Sampling)
+Chain [4] Iteration: 2800 / 4000 [ 70%]  (Sampling)
+Chain [3] Iteration: 3000 / 4000 [ 75%]  (Sampling)
+Chain [2] Iteration: 2900 / 4000 [ 72%]  (Sampling)
+Chain [1] Iteration: 3000 / 4000 [ 75%]  (Sampling)
+Chain [4] Iteration: 2900 / 4000 [ 72%]  (Sampling)
+Chain [2] Iteration: 3000 / 4000 [ 75%]  (Sampling)
+Chain [3] Iteration: 3100 / 4000 [ 77%]  (Sampling)
+Chain [1] Iteration: 3100 / 4000 [ 77%]  (Sampling)
+Chain [4] Iteration: 3000 / 4000 [ 75%]  (Sampling)
+Chain [2] Iteration: 3100 / 4000 [ 77%]  (Sampling)
+Chain [3] Iteration: 3200 / 4000 [ 80%]  (Sampling)
+Chain [1] Iteration: 3200 / 4000 [ 80%]  (Sampling)
+Chain [4] Iteration: 3100 / 4000 [ 77%]  (Sampling)
+Chain [2] Iteration: 3200 / 4000 [ 80%]  (Sampling)
+Chain [1] Iteration: 3300 / 4000 [ 82%]  (Sampling)
+Chain [3] Iteration: 3300 / 4000 [ 82%]  (Sampling)
+Chain [4] Iteration: 3200 / 4000 [ 80%]  (Sampling)
+Chain [2] Iteration: 3300 / 4000 [ 82%]  (Sampling)
+Chain [3] Iteration: 3400 / 4000 [ 85%]  (Sampling)
+Chain [1] Iteration: 3400 / 4000 [ 85%]  (Sampling)
+Chain [4] Iteration: 3300 / 4000 [ 82%]  (Sampling)
+Chain [2] Iteration: 3400 / 4000 [ 85%]  (Sampling)
+Chain [3] Iteration: 3500 / 4000 [ 87%]  (Sampling)
+Chain [1] Iteration: 3500 / 4000 [ 87%]  (Sampling)
+Chain [2] Iteration: 3500 / 4000 [ 87%]  (Sampling)
+Chain [4] Iteration: 3400 / 4000 [ 85%]  (Sampling)
+Chain [1] Iteration: 3600 / 4000 [ 90%]  (Sampling)
+Chain [3] Iteration: 3600 / 4000 [ 90%]  (Sampling)
+Chain [4] Iteration: 3500 / 4000 [ 87%]  (Sampling)
+Chain [2] Iteration: 3600 / 4000 [ 90%]  (Sampling)
+Chain [1] Iteration: 3700 / 4000 [ 92%]  (Sampling)
+Chain [3] Iteration: 3700 / 4000 [ 92%]  (Sampling)
+Chain [4] Iteration: 3600 / 4000 [ 90%]  (Sampling)
+Chain [1] Iteration: 3800 / 4000 [ 95%]  (Sampling)
+Chain [2] Iteration: 3700 / 4000 [ 92%]  (Sampling)
+Chain [3] Iteration: 3800 / 4000 [ 95%]  (Sampling)
+Chain [4] Iteration: 3700 / 4000 [ 92%]  (Sampling)
+Chain [2] Iteration: 3800 / 4000 [ 95%]  (Sampling)
+Chain [1] Iteration: 3900 / 4000 [ 97%]  (Sampling)
+Chain [3] Iteration: 3900 / 4000 [ 97%]  (Sampling)
+Chain [2] Iteration: 3900 / 4000 [ 97%]  (Sampling)
+Chain [4] Iteration: 3800 / 4000 [ 95%]  (Sampling)
+Chain [1] Iteration: 4000 / 4000 [100%]  (Sampling)
+
+ Elapsed Time: 1.978 seconds (Warm-up)
+               3.891 seconds (Sampling)
+               5.869 seconds (Total)
+
+Chain [3] Iteration: 4000 / 4000 [100%]  (Sampling)
+
+ Elapsed Time: 1.92 seconds (Warm-up)
+               3.969 seconds (Sampling)
+               5.889 seconds (Total)
+
+Chain [2] Iteration: 4000 / 4000 [100%]  (Sampling)
+
+ Elapsed Time: 2.012 seconds (Warm-up)
+               3.936 seconds (Sampling)
+               5.948 seconds (Total)
+
+Chain [4] Iteration: 3900 / 4000 [ 97%]  (Sampling)
+Chain [4] Iteration: 4000 / 4000 [100%]  (Sampling)
+
+ Elapsed Time: 2.046 seconds (Warm-up)
+               4.047 seconds (Sampling)
+               6.093 seconds (Total)
+

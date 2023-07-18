@@ -1,0 +1,12 @@
+# BAO from BOSS, eBOSS and WiggleZ
+# ignores correlation in the WiggleZ dataset and uses a simplified error for each measurement
+# reminder: this provides d_v, not D_v
+
+# units: none, Mpc, Mpc
+z,dvobs,error
+0.32,1270,14
+0.44,1716,68
+0.57,2033,21
+0.6,2221,76
+0.73,2516,78
+1.52,3843,147

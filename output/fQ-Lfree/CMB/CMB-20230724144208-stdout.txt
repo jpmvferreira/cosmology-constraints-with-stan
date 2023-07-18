@@ -1,0 +1,546 @@
+method = sample (Default)
+  sample
+    num_samples = 1000 (Default)
+    num_warmup = 1000 (Default)
+    save_warmup = 0 (Default)
+    thin = 1 (Default)
+    adapt
+      engaged = 1 (Default)
+      gamma = 0.050000000000000003 (Default)
+      delta = 0.80000000000000004 (Default)
+      kappa = 0.75 (Default)
+      t0 = 10 (Default)
+      init_buffer = 75 (Default)
+      term_buffer = 50 (Default)
+      window = 25 (Default)
+    algorithm = hmc (Default)
+      hmc
+        engine = nuts (Default)
+          nuts
+            max_depth = 10 (Default)
+        metric = diag_e (Default)
+        metric_file =  (Default)
+        stepsize = 1 (Default)
+        stepsize_jitter = 0 (Default)
+    num_chains = 4
+id = 1 (Default)
+data
+  file = /tmp/tmpnyslm103/hi0c7hrz.json
+init = /tmp/tmpnyslm103/eun7fobf.json
+random
+  seed = 94167
+output
+  file = /home/undercover/teaching/internships/ia/2022-23/Code/output/fQ-Lfree/CMB/CMB-20230724144208.csv
+  diagnostic_file =  (Default)
+  refresh = 100 (Default)
+  sig_figs = -1 (Default)
+  profile_file = profile.csv (Default)
+num_threads = 4 (Default)
+
+
+Gradient evaluation took 0.00961 seconds
+1000 transitions using 10 leapfrog steps per transition would take 96.1 seconds.
+Adjust your expectations accordingly!
+
+
+
+Gradient evaluation took 0.014433 seconds
+1000 transitions using 10 leapfrog steps per transition would take 144.33 seconds.
+Adjust your expectations accordingly!
+
+
+
+Gradient evaluation took 0.011666 seconds
+1000 transitions using 10 leapfrog steps per transition would take 116.66 seconds.
+Adjust your expectations accordingly!
+
+
+
+Gradient evaluation took 0.011451 seconds
+1000 transitions using 10 leapfrog steps per transition would take 114.51 seconds.
+Adjust your expectations accordingly!
+
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: dae: initial state derivative[1] is -nan, but must be finite! (in '/home/undercover/teaching/internships/ia/2022-23/Code/model/fQ-Lfree/CMB.stan', line 121, column 2 to column 62)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: dae: initial state derivative[1] is -nan, but must be finite! (in '/home/undercover/teaching/internships/ia/2022-23/Code/model/fQ-Lfree/CMB.stan', line 121, column 2 to column 62)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: dae: initial state derivative[1] is -nan, but must be finite! (in '/home/undercover/teaching/internships/ia/2022-23/Code/model/fQ-Lfree/CMB.stan', line 121, column 2 to column 62)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: dae: initial state derivative[1] is -nan, but must be finite! (in '/home/undercover/teaching/internships/ia/2022-23/Code/model/fQ-Lfree/CMB.stan', line 121, column 2 to column 62)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: dae: initial state derivative[1] is -nan, but must be finite! (in '/home/undercover/teaching/internships/ia/2022-23/Code/model/fQ-Lfree/CMB.stan', line 121, column 2 to column 62)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: dae: initial state derivative[1] is -nan, but must be finite! (in '/home/undercover/teaching/internships/ia/2022-23/Code/model/fQ-Lfree/CMB.stan', line 121, column 2 to column 62)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: dae: initial state derivative[1] is -nan, but must be finite! (in '/home/undercover/teaching/internships/ia/2022-23/Code/model/fQ-Lfree/CMB.stan', line 121, column 2 to column 62)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: dae: initial state derivative[1] is -nan, but must be finite! (in '/home/undercover/teaching/internships/ia/2022-23/Code/model/fQ-Lfree/CMB.stan', line 121, column 2 to column 62)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: dae: initial state derivative[1] is -nan, but must be finite! (in '/home/undercover/teaching/internships/ia/2022-23/Code/model/fQ-Lfree/CMB.stan', line 121, column 2 to column 62)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: dae: initial state derivative[1] is -nan, but must be finite! (in '/home/undercover/teaching/internships/ia/2022-23/Code/model/fQ-Lfree/CMB.stan', line 121, column 2 to column 62)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: dae: initial state derivative[1] is -nan, but must be finite! (in '/home/undercover/teaching/internships/ia/2022-23/Code/model/fQ-Lfree/CMB.stan', line 121, column 2 to column 62)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: dae: initial state derivative[1] is -nan, but must be finite! (in '/home/undercover/teaching/internships/ia/2022-23/Code/model/fQ-Lfree/CMB.stan', line 121, column 2 to column 62)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: dae: initial state derivative[1] is -nan, but must be finite! (in '/home/undercover/teaching/internships/ia/2022-23/Code/model/fQ-Lfree/CMB.stan', line 121, column 2 to column 62)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: dae: initial state derivative[1] is -nan, but must be finite! (in '/home/undercover/teaching/internships/ia/2022-23/Code/model/fQ-Lfree/CMB.stan', line 121, column 2 to column 62)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: dae: initial state derivative[1] is -nan, but must be finite! (in '/home/undercover/teaching/internships/ia/2022-23/Code/model/fQ-Lfree/CMB.stan', line 121, column 2 to column 62)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: dae: initial state derivative[1] is -nan, but must be finite! (in '/home/undercover/teaching/internships/ia/2022-23/Code/model/fQ-Lfree/CMB.stan', line 121, column 2 to column 62)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: dae: initial state derivative[1] is -nan, but must be finite! (in '/home/undercover/teaching/internships/ia/2022-23/Code/model/fQ-Lfree/CMB.stan', line 121, column 2 to column 62)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: Error in function boost::math::lambert_w0<double>: Expected z >= -e^-1 (-0.367879...) but got -2.2160415317502639e+150. (in '/home/undercover/teaching/internships/ia/2022-23/Code/model/fQ-Lfree/CMB.stan', line 101, column 2 to column 65)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: dae: initial state derivative[1] is -nan, but must be finite! (in '/home/undercover/teaching/internships/ia/2022-23/Code/model/fQ-Lfree/CMB.stan', line 121, column 2 to column 62)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: dae: initial state derivative[1] is -nan, but must be finite! (in '/home/undercover/teaching/internships/ia/2022-23/Code/model/fQ-Lfree/CMB.stan', line 121, column 2 to column 62)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: dae: initial state derivative[1] is -nan, but must be finite! (in '/home/undercover/teaching/internships/ia/2022-23/Code/model/fQ-Lfree/CMB.stan', line 121, column 2 to column 62)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: Error in function boost::math::lambert_w0<double>: Expected z >= -e^-1 (-0.367879...) but got -1.3605008482836777e+34. (in '/home/undercover/teaching/internships/ia/2022-23/Code/model/fQ-Lfree/CMB.stan', line 101, column 2 to column 65)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: Error in function boost::math::lambert_w0<double>: Expected z >= -e^-1 (-0.367879...) but got -122095.54950123296. (in '/home/undercover/teaching/internships/ia/2022-23/Code/model/fQ-Lfree/CMB.stan', line 101, column 2 to column 65)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: dae: DAE parameters and data[6] is -nan, but must be finite! (in '/home/undercover/teaching/internships/ia/2022-23/Code/model/fQ-Lfree/CMB.stan', line 121, column 2 to column 62)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: dae: initial state derivative[1] is -nan, but must be finite! (in '/home/undercover/teaching/internships/ia/2022-23/Code/model/fQ-Lfree/CMB.stan', line 121, column 2 to column 62)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: dae: initial state derivative[1] is -nan, but must be finite! (in '/home/undercover/teaching/internships/ia/2022-23/Code/model/fQ-Lfree/CMB.stan', line 121, column 2 to column 62)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: dae: DAE parameters and data[6] is -nan, but must be finite! (in '/home/undercover/teaching/internships/ia/2022-23/Code/model/fQ-Lfree/CMB.stan', line 121, column 2 to column 62)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: dae: initial state derivative[1] is -nan, but must be finite! (in '/home/undercover/teaching/internships/ia/2022-23/Code/model/fQ-Lfree/CMB.stan', line 121, column 2 to column 62)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: Error in function boost::math::lambert_w0<double>: Expected z >= -e^-1 (-0.367879...) but got -2.2021325301037637e+150. (in '/home/undercover/teaching/internships/ia/2022-23/Code/model/fQ-Lfree/CMB.stan', line 101, column 2 to column 65)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: dae: DAE parameters and data[6] is -nan, but must be finite! (in '/home/undercover/teaching/internships/ia/2022-23/Code/model/fQ-Lfree/CMB.stan', line 121, column 2 to column 62)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: Error in function boost::math::lambert_w0<double>: Expected z >= -e^-1 (-0.367879...) but got -1.4097284149107309e+34. (in '/home/undercover/teaching/internships/ia/2022-23/Code/model/fQ-Lfree/CMB.stan', line 101, column 2 to column 65)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: dae: initial state derivative[1] is -nan, but must be finite! (in '/home/undercover/teaching/internships/ia/2022-23/Code/model/fQ-Lfree/CMB.stan', line 121, column 2 to column 62)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: dae: initial state derivative[1] is -nan, but must be finite! (in '/home/undercover/teaching/internships/ia/2022-23/Code/model/fQ-Lfree/CMB.stan', line 121, column 2 to column 62)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Chain [1] Iteration:    1 / 2000 [  0%]  (Warmup)
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: Error in function boost::math::lambert_w0<double>: Expected z >= -e^-1 (-0.367879...) but got -122709.11264248013. (in '/home/undercover/teaching/internships/ia/2022-23/Code/model/fQ-Lfree/CMB.stan', line 101, column 2 to column 65)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: dae: initial state derivative[1] is -nan, but must be finite! (in '/home/undercover/teaching/internships/ia/2022-23/Code/model/fQ-Lfree/CMB.stan', line 121, column 2 to column 62)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: dae: initial state derivative[1] is -nan, but must be finite! (in '/home/undercover/teaching/internships/ia/2022-23/Code/model/fQ-Lfree/CMB.stan', line 121, column 2 to column 62)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: Error in function boost::math::lambert_w0<double>: Expected z >= -e^-1 (-0.367879...) but got -2.253576394851929e+150. (in '/home/undercover/teaching/internships/ia/2022-23/Code/model/fQ-Lfree/CMB.stan', line 101, column 2 to column 65)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: dae: initial state derivative[1] is -nan, but must be finite! (in '/home/undercover/teaching/internships/ia/2022-23/Code/model/fQ-Lfree/CMB.stan', line 121, column 2 to column 62)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: dae: DAE parameters and data[6] is -nan, but must be finite! (in '/home/undercover/teaching/internships/ia/2022-23/Code/model/fQ-Lfree/CMB.stan', line 121, column 2 to column 62)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: dae: DAE parameters and data[6] is -nan, but must be finite! (in '/home/undercover/teaching/internships/ia/2022-23/Code/model/fQ-Lfree/CMB.stan', line 121, column 2 to column 62)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: Error in function boost::math::lambert_w0<double>: Expected z >= -e^-1 (-0.367879...) but got -2.2907691434174733e+150. (in '/home/undercover/teaching/internships/ia/2022-23/Code/model/fQ-Lfree/CMB.stan', line 101, column 2 to column 65)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: Error in function boost::math::lambert_w0<double>: Expected z >= -e^-1 (-0.367879...) but got -1.4149578598487676e+34. (in '/home/undercover/teaching/internships/ia/2022-23/Code/model/fQ-Lfree/CMB.stan', line 101, column 2 to column 65)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: dae: DAE parameters and data[6] is -nan, but must be finite! (in '/home/undercover/teaching/internships/ia/2022-23/Code/model/fQ-Lfree/CMB.stan', line 121, column 2 to column 62)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: dae: DAE parameters and data[1] is inf, but must be finite! (in '/home/undercover/teaching/internships/ia/2022-23/Code/model/fQ-Lfree/CMB.stan', line 121, column 2 to column 62)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: Error in function boost::math::lambert_w0<double>: Expected z >= -e^-1 (-0.367879...) but got -1.3946112644348538e+34. (in '/home/undercover/teaching/internships/ia/2022-23/Code/model/fQ-Lfree/CMB.stan', line 101, column 2 to column 65)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: Error in function boost::math::lambert_w0<double>: Expected z >= -e^-1 (-0.367879...) but got -122840.34736800245. (in '/home/undercover/teaching/internships/ia/2022-23/Code/model/fQ-Lfree/CMB.stan', line 101, column 2 to column 65)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: dae: DAE parameters and data[1] is inf, but must be finite! (in '/home/undercover/teaching/internships/ia/2022-23/Code/model/fQ-Lfree/CMB.stan', line 121, column 2 to column 62)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: dae: DAE parameters and data[6] is -nan, but must be finite! (in '/home/undercover/teaching/internships/ia/2022-23/Code/model/fQ-Lfree/CMB.stan', line 121, column 2 to column 62)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: dae: DAE parameters and data[1] is inf, but must be finite! (in '/home/undercover/teaching/internships/ia/2022-23/Code/model/fQ-Lfree/CMB.stan', line 121, column 2 to column 62)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: Error in function boost::math::lambert_w0<double>: Expected z >= -e^-1 (-0.367879...) but got -124423.18406572542. (in '/home/undercover/teaching/internships/ia/2022-23/Code/model/fQ-Lfree/CMB.stan', line 101, column 2 to column 65)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: dae: DAE parameters and data[6] is -nan, but must be finite! (in '/home/undercover/teaching/internships/ia/2022-23/Code/model/fQ-Lfree/CMB.stan', line 121, column 2 to column 62)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: dae: DAE parameters and data[6] is -nan, but must be finite! (in '/home/undercover/teaching/internships/ia/2022-23/Code/model/fQ-Lfree/CMB.stan', line 121, column 2 to column 62)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: dae: DAE parameters and data[6] is -nan, but must be finite! (in '/home/undercover/teaching/internships/ia/2022-23/Code/model/fQ-Lfree/CMB.stan', line 121, column 2 to column 62)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: dae: DAE parameters and data[6] is -nan, but must be finite! (in '/home/undercover/teaching/internships/ia/2022-23/Code/model/fQ-Lfree/CMB.stan', line 121, column 2 to column 62)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: dae: DAE parameters and data[6] is -nan, but must be finite! (in '/home/undercover/teaching/internships/ia/2022-23/Code/model/fQ-Lfree/CMB.stan', line 121, column 2 to column 62)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Chain [4] Iteration:    1 / 2000 [  0%]  (Warmup)
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: dae: DAE parameters and data[6] is -nan, but must be finite! (in '/home/undercover/teaching/internships/ia/2022-23/Code/model/fQ-Lfree/CMB.stan', line 121, column 2 to column 62)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: dae: DAE parameters and data[6] is -nan, but must be finite! (in '/home/undercover/teaching/internships/ia/2022-23/Code/model/fQ-Lfree/CMB.stan', line 121, column 2 to column 62)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: dae: DAE parameters and data[6] is -nan, but must be finite! (in '/home/undercover/teaching/internships/ia/2022-23/Code/model/fQ-Lfree/CMB.stan', line 121, column 2 to column 62)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Chain [3] Iteration:    1 / 2000 [  0%]  (Warmup)
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: dae: DAE parameters and data[1] is inf, but must be finite! (in '/home/undercover/teaching/internships/ia/2022-23/Code/model/fQ-Lfree/CMB.stan', line 121, column 2 to column 62)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: dae: DAE parameters and data[1] is inf, but must be finite! (in '/home/undercover/teaching/internships/ia/2022-23/Code/model/fQ-Lfree/CMB.stan', line 121, column 2 to column 62)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Chain [2] Iteration:    1 / 2000 [  0%]  (Warmup)
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: dae: DAE parameters and data[1] is inf, but must be finite! (in '/home/undercover/teaching/internships/ia/2022-23/Code/model/fQ-Lfree/CMB.stan', line 121, column 2 to column 62)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: dae: DAE parameters and data[6] is -nan, but must be finite! (in '/home/undercover/teaching/internships/ia/2022-23/Code/model/fQ-Lfree/CMB.stan', line 121, column 2 to column 62)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: dae: DAE parameters and data[1] is inf, but must be finite! (in '/home/undercover/teaching/internships/ia/2022-23/Code/model/fQ-Lfree/CMB.stan', line 121, column 2 to column 62)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: dae: DAE parameters and data[6] is -nan, but must be finite! (in '/home/undercover/teaching/internships/ia/2022-23/Code/model/fQ-Lfree/CMB.stan', line 121, column 2 to column 62)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: dae: DAE parameters and data[1] is inf, but must be finite! (in '/home/undercover/teaching/internships/ia/2022-23/Code/model/fQ-Lfree/CMB.stan', line 121, column 2 to column 62)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: dae: DAE parameters and data[1] is inf, but must be finite! (in '/home/undercover/teaching/internships/ia/2022-23/Code/model/fQ-Lfree/CMB.stan', line 121, column 2 to column 62)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: dae: DAE parameters and data[1] is inf, but must be finite! (in '/home/undercover/teaching/internships/ia/2022-23/Code/model/fQ-Lfree/CMB.stan', line 121, column 2 to column 62)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: dae: DAE parameters and data[1] is inf, but must be finite! (in '/home/undercover/teaching/internships/ia/2022-23/Code/model/fQ-Lfree/CMB.stan', line 121, column 2 to column 62)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: dae: DAE parameters and data[6] is -nan, but must be finite! (in '/home/undercover/teaching/internships/ia/2022-23/Code/model/fQ-Lfree/CMB.stan', line 121, column 2 to column 62)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: dae: DAE parameters and data[1] is inf, but must be finite! (in '/home/undercover/teaching/internships/ia/2022-23/Code/model/fQ-Lfree/CMB.stan', line 121, column 2 to column 62)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: dae: DAE parameters and data[6] is -nan, but must be finite! (in '/home/undercover/teaching/internships/ia/2022-23/Code/model/fQ-Lfree/CMB.stan', line 121, column 2 to column 62)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: dae: DAE parameters and data[6] is -nan, but must be finite! (in '/home/undercover/teaching/internships/ia/2022-23/Code/model/fQ-Lfree/CMB.stan', line 121, column 2 to column 62)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: dae: DAE parameters and data[6] is -nan, but must be finite! (in '/home/undercover/teaching/internships/ia/2022-23/Code/model/fQ-Lfree/CMB.stan', line 121, column 2 to column 62)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: dae: DAE parameters and data[6] is -nan, but must be finite! (in '/home/undercover/teaching/internships/ia/2022-23/Code/model/fQ-Lfree/CMB.stan', line 121, column 2 to column 62)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Chain [1] Iteration:  100 / 2000 [  5%]  (Warmup)
+Chain [3] Iteration:  100 / 2000 [  5%]  (Warmup)
+Chain [2] Iteration:  100 / 2000 [  5%]  (Warmup)
+Chain [4] Iteration:  100 / 2000 [  5%]  (Warmup)
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: dae: DAE parameters and data[6] is -nan, but must be finite! (in '/home/undercover/teaching/internships/ia/2022-23/Code/model/fQ-Lfree/CMB.stan', line 121, column 2 to column 62)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Chain [3] Iteration:  200 / 2000 [ 10%]  (Warmup)
+Chain [1] Iteration:  200 / 2000 [ 10%]  (Warmup)
+Chain [2] Iteration:  200 / 2000 [ 10%]  (Warmup)
+Chain [4] Iteration:  200 / 2000 [ 10%]  (Warmup)
+Chain [3] Iteration:  300 / 2000 [ 15%]  (Warmup)
+Chain [4] Iteration:  300 / 2000 [ 15%]  (Warmup)
+Chain [1] Iteration:  300 / 2000 [ 15%]  (Warmup)
+Chain [2] Iteration:  300 / 2000 [ 15%]  (Warmup)
+Chain [3] Iteration:  400 / 2000 [ 20%]  (Warmup)
+Chain [4] Iteration:  400 / 2000 [ 20%]  (Warmup)
+Chain [1] Iteration:  400 / 2000 [ 20%]  (Warmup)
+Chain [2] Iteration:  400 / 2000 [ 20%]  (Warmup)
+Chain [3] Iteration:  500 / 2000 [ 25%]  (Warmup)
+Chain [4] Iteration:  500 / 2000 [ 25%]  (Warmup)
+Chain [2] Iteration:  500 / 2000 [ 25%]  (Warmup)
+Chain [1] Iteration:  500 / 2000 [ 25%]  (Warmup)
+Chain [3] Iteration:  600 / 2000 [ 30%]  (Warmup)
+Chain [4] Iteration:  600 / 2000 [ 30%]  (Warmup)
+Chain [2] Iteration:  600 / 2000 [ 30%]  (Warmup)
+Chain [1] Iteration:  600 / 2000 [ 30%]  (Warmup)
+Chain [3] Iteration:  700 / 2000 [ 35%]  (Warmup)
+Chain [4] Iteration:  700 / 2000 [ 35%]  (Warmup)
+Chain [2] Iteration:  700 / 2000 [ 35%]  (Warmup)
+Chain [1] Iteration:  700 / 2000 [ 35%]  (Warmup)
+Chain [3] Iteration:  800 / 2000 [ 40%]  (Warmup)
+Chain [2] Iteration:  800 / 2000 [ 40%]  (Warmup)
+Chain [4] Iteration:  800 / 2000 [ 40%]  (Warmup)
+Chain [1] Iteration:  800 / 2000 [ 40%]  (Warmup)
+Chain [2] Iteration:  900 / 2000 [ 45%]  (Warmup)
+Chain [3] Iteration:  900 / 2000 [ 45%]  (Warmup)
+Chain [1] Iteration:  900 / 2000 [ 45%]  (Warmup)
+Chain [4] Iteration:  900 / 2000 [ 45%]  (Warmup)
+Chain [2] Iteration: 1000 / 2000 [ 50%]  (Warmup)
+Chain [2] Iteration: 1001 / 2000 [ 50%]  (Sampling)
+Chain [3] Iteration: 1000 / 2000 [ 50%]  (Warmup)
+Chain [3] Iteration: 1001 / 2000 [ 50%]  (Sampling)
+Chain [1] Iteration: 1000 / 2000 [ 50%]  (Warmup)
+Chain [1] Iteration: 1001 / 2000 [ 50%]  (Sampling)
+Chain [4] Iteration: 1000 / 2000 [ 50%]  (Warmup)
+Chain [4] Iteration: 1001 / 2000 [ 50%]  (Sampling)
+Chain [3] Iteration: 1100 / 2000 [ 55%]  (Sampling)
+Chain [2] Iteration: 1100 / 2000 [ 55%]  (Sampling)
+Chain [1] Iteration: 1100 / 2000 [ 55%]  (Sampling)
+Chain [4] Iteration: 1100 / 2000 [ 55%]  (Sampling)
+Chain [3] Iteration: 1200 / 2000 [ 60%]  (Sampling)
+Chain [2] Iteration: 1200 / 2000 [ 60%]  (Sampling)
+Chain [1] Iteration: 1200 / 2000 [ 60%]  (Sampling)
+Chain [4] Iteration: 1200 / 2000 [ 60%]  (Sampling)
+Chain [3] Iteration: 1300 / 2000 [ 65%]  (Sampling)
+Chain [2] Iteration: 1300 / 2000 [ 65%]  (Sampling)
+Chain [1] Iteration: 1300 / 2000 [ 65%]  (Sampling)
+Chain [4] Iteration: 1300 / 2000 [ 65%]  (Sampling)
+Chain [3] Iteration: 1400 / 2000 [ 70%]  (Sampling)
+Chain [1] Iteration: 1400 / 2000 [ 70%]  (Sampling)
+Chain [2] Iteration: 1400 / 2000 [ 70%]  (Sampling)
+Chain [4] Iteration: 1400 / 2000 [ 70%]  (Sampling)
+Chain [3] Iteration: 1500 / 2000 [ 75%]  (Sampling)
+Chain [1] Iteration: 1500 / 2000 [ 75%]  (Sampling)
+Chain [2] Iteration: 1500 / 2000 [ 75%]  (Sampling)
+Chain [4] Iteration: 1500 / 2000 [ 75%]  (Sampling)
+Chain [3] Iteration: 1600 / 2000 [ 80%]  (Sampling)
+Chain [1] Iteration: 1600 / 2000 [ 80%]  (Sampling)
+Chain [2] Iteration: 1600 / 2000 [ 80%]  (Sampling)
+Chain [4] Iteration: 1600 / 2000 [ 80%]  (Sampling)
+Chain [1] Iteration: 1700 / 2000 [ 85%]  (Sampling)
+Chain [3] Iteration: 1700 / 2000 [ 85%]  (Sampling)
+Chain [2] Iteration: 1700 / 2000 [ 85%]  (Sampling)
+Chain [4] Iteration: 1700 / 2000 [ 85%]  (Sampling)
+Chain [1] Iteration: 1800 / 2000 [ 90%]  (Sampling)
+Chain [2] Iteration: 1800 / 2000 [ 90%]  (Sampling)
+Chain [3] Iteration: 1800 / 2000 [ 90%]  (Sampling)
+Chain [4] Iteration: 1800 / 2000 [ 90%]  (Sampling)
+Chain [1] Iteration: 1900 / 2000 [ 95%]  (Sampling)
+Chain [2] Iteration: 1900 / 2000 [ 95%]  (Sampling)
+Chain [3] Iteration: 1900 / 2000 [ 95%]  (Sampling)
+Chain [4] Iteration: 1900 / 2000 [ 95%]  (Sampling)
+Chain [1] Iteration: 2000 / 2000 [100%]  (Sampling)
+
+ Elapsed Time: 361.211 seconds (Warm-up)
+               246.987 seconds (Sampling)
+               608.198 seconds (Total)
+
+Chain [2] Iteration: 2000 / 2000 [100%]  (Sampling)
+
+ Elapsed Time: 351.447 seconds (Warm-up)
+               260.346 seconds (Sampling)
+               611.793 seconds (Total)
+
+Chain [3] Iteration: 2000 / 2000 [100%]  (Sampling)
+
+ Elapsed Time: 355.012 seconds (Warm-up)
+               259.595 seconds (Sampling)
+               614.607 seconds (Total)
+
+Chain [4] Iteration: 2000 / 2000 [100%]  (Sampling)
+
+ Elapsed Time: 365.575 seconds (Warm-up)
+               257.783 seconds (Sampling)
+               623.358 seconds (Total)
+

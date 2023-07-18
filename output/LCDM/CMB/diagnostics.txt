@@ -1,0 +1,16 @@
+Processing csv files: /home/undercover/teaching/internships/ia/2022-23/Code/output/LCDM/CMB/CMB-20230724123932_1.csv, /home/undercover/teaching/internships/ia/2022-23/Code/output/LCDM/CMB/CMB-20230724123932_2.csv, /home/undercover/teaching/internships/ia/2022-23/Code/output/LCDM/CMB/CMB-20230724123932_3.csv, /home/undercover/teaching/internships/ia/2022-23/Code/output/LCDM/CMB/CMB-20230724123932_4.csv
+
+Checking sampler transitions treedepth.
+Treedepth satisfactory for all transitions.
+
+Checking sampler transitions for divergences.
+No divergent transitions found.
+
+Checking E-BFMI - sampler transitions HMC potential energy.
+E-BFMI satisfactory.
+
+Effective sample size satisfactory.
+
+Split R-hat values satisfactory all parameters.
+
+Processing complete, no problems detected.

@@ -1,0 +1,351 @@
+method = sample (Default)
+  sample
+    num_samples = 1000 (Default)
+    num_warmup = 1000 (Default)
+    save_warmup = 0 (Default)
+    thin = 1 (Default)
+    adapt
+      engaged = 1 (Default)
+      gamma = 0.050000000000000003 (Default)
+      delta = 0.80000000000000004 (Default)
+      kappa = 0.75 (Default)
+      t0 = 10 (Default)
+      init_buffer = 75 (Default)
+      term_buffer = 50 (Default)
+      window = 25 (Default)
+    algorithm = hmc (Default)
+      hmc
+        engine = nuts (Default)
+          nuts
+            max_depth = 10 (Default)
+        metric = diag_e (Default)
+        metric_file =  (Default)
+        stepsize = 1 (Default)
+        stepsize_jitter = 0 (Default)
+    num_chains = 4
+id = 1 (Default)
+data
+  file = /tmp/tmpeaatp_e1/sylpj6fz.json
+init = /tmp/tmpeaatp_e1/eqjc2j4w.json
+random
+  seed = 83531
+output
+  file = /home/undercover/teaching/internships/ia/2022-23/Code/output/fQ-LCDM/SS+SnIa/ET/SS+SnIa-20230724141838.csv
+  diagnostic_file =  (Default)
+  refresh = 100 (Default)
+  sig_figs = -1 (Default)
+  profile_file = profile.csv (Default)
+num_threads = 4 (Default)
+
+
+Gradient evaluation took 0.040378 seconds
+1000 transitions using 10 leapfrog steps per transition would take 403.78 seconds.
+Adjust your expectations accordingly!
+
+
+
+Gradient evaluation took 0.036126 seconds
+1000 transitions using 10 leapfrog steps per transition would take 361.26 seconds.
+Adjust your expectations accordingly!
+
+
+
+Gradient evaluation took 0.036309 seconds
+1000 transitions using 10 leapfrog steps per transition would take 363.09 seconds.
+Adjust your expectations accordingly!
+
+
+
+Gradient evaluation took 0.036059 seconds
+1000 transitions using 10 leapfrog steps per transition would take 360.59 seconds.
+Adjust your expectations accordingly!
+
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: Error in function tanh_sinh<double>::integrate: The tanh_sinh quadrature evaluated your function at a singular point and got -nan. Please narrow the bounds of integration or check your function for singularities. (in '/home/undercover/teaching/internships/ia/2022-23/Code/model/fQ-LCDM/SS+SnIa.stan', line 51, column 4 to column 117)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: Error in function tanh_sinh<double>::integrate: The tanh_sinh quadrature evaluated your function at a singular point and got -nan. Please narrow the bounds of integration or check your function for singularities. (in '/home/undercover/teaching/internships/ia/2022-23/Code/model/fQ-LCDM/SS+SnIa.stan', line 51, column 4 to column 117)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: Error in function tanh_sinh<double>::integrate: The tanh_sinh quadrature evaluated your function at a singular point and got -nan. Please narrow the bounds of integration or check your function for singularities. (in '/home/undercover/teaching/internships/ia/2022-23/Code/model/fQ-LCDM/SS+SnIa.stan', line 51, column 4 to column 117)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: Error in function tanh_sinh<double>::integrate: The tanh_sinh quadrature evaluated your function at a singular point and got -nan. Please narrow the bounds of integration or check your function for singularities. (in '/home/undercover/teaching/internships/ia/2022-23/Code/model/fQ-LCDM/SS+SnIa.stan', line 51, column 4 to column 117)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: Error in function tanh_sinh<double>::integrate: The tanh_sinh quadrature evaluated your function at a singular point and got -nan. Please narrow the bounds of integration or check your function for singularities. (in '/home/undercover/teaching/internships/ia/2022-23/Code/model/fQ-LCDM/SS+SnIa.stan', line 51, column 4 to column 117)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: Error in function tanh_sinh<double>::integrate: The tanh_sinh quadrature evaluated your function at a singular point and got -nan. Please narrow the bounds of integration or check your function for singularities. (in '/home/undercover/teaching/internships/ia/2022-23/Code/model/fQ-LCDM/SS+SnIa.stan', line 51, column 4 to column 117)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: Error in function tanh_sinh<double>::integrate: The tanh_sinh quadrature evaluated your function at a singular point and got -nan. Please narrow the bounds of integration or check your function for singularities. (in '/home/undercover/teaching/internships/ia/2022-23/Code/model/fQ-LCDM/SS+SnIa.stan', line 51, column 4 to column 117)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: Error in function tanh_sinh<double>::integrate: The tanh_sinh quadrature evaluated your function at a singular point and got -nan. Please narrow the bounds of integration or check your function for singularities. (in '/home/undercover/teaching/internships/ia/2022-23/Code/model/fQ-LCDM/SS+SnIa.stan', line 51, column 4 to column 117)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: Error in function tanh_sinh<double>::integrate: The tanh_sinh quadrature evaluated your function at a singular point and got -nan. Please narrow the bounds of integration or check your function for singularities. (in '/home/undercover/teaching/internships/ia/2022-23/Code/model/fQ-LCDM/SS+SnIa.stan', line 51, column 4 to column 117)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: Error in function tanh_sinh<double>::integrate: The tanh_sinh quadrature evaluated your function at a singular point and got -nan. Please narrow the bounds of integration or check your function for singularities. (in '/home/undercover/teaching/internships/ia/2022-23/Code/model/fQ-LCDM/SS+SnIa.stan', line 51, column 4 to column 117)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: Error in function tanh_sinh<double>::integrate: The tanh_sinh quadrature evaluated your function at a singular point and got -nan. Please narrow the bounds of integration or check your function for singularities. (in '/home/undercover/teaching/internships/ia/2022-23/Code/model/fQ-LCDM/SS+SnIa.stan', line 51, column 4 to column 117)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: Error in function tanh_sinh<double>::integrate: The tanh_sinh quadrature evaluated your function at a singular point and got -nan. Please narrow the bounds of integration or check your function for singularities. (in '/home/undercover/teaching/internships/ia/2022-23/Code/model/fQ-LCDM/SS+SnIa.stan', line 51, column 4 to column 117)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: Error in function tanh_sinh<double>::integrate: The tanh_sinh quadrature evaluated your function at a singular point and got -nan. Please narrow the bounds of integration or check your function for singularities. (in '/home/undercover/teaching/internships/ia/2022-23/Code/model/fQ-LCDM/SS+SnIa.stan', line 51, column 4 to column 117)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: Error in function tanh_sinh<double>::integrate: The tanh_sinh quadrature evaluated your function at a singular point and got -nan. Please narrow the bounds of integration or check your function for singularities. (in '/home/undercover/teaching/internships/ia/2022-23/Code/model/fQ-LCDM/SS+SnIa.stan', line 51, column 4 to column 117)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: Error in function tanh_sinh<double>::integrate: The tanh_sinh quadrature evaluated your function at a singular point and got -nan. Please narrow the bounds of integration or check your function for singularities. (in '/home/undercover/teaching/internships/ia/2022-23/Code/model/fQ-LCDM/SS+SnIa.stan', line 51, column 4 to column 117)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: Error in function tanh_sinh<double>::integrate: The tanh_sinh quadrature evaluated your function at a singular point and got -nan. Please narrow the bounds of integration or check your function for singularities. (in '/home/undercover/teaching/internships/ia/2022-23/Code/model/fQ-LCDM/SS+SnIa.stan', line 51, column 4 to column 117)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: Error in function tanh_sinh<double>::integrate: The tanh_sinh quadrature evaluated your function at a singular point and got -nan. Please narrow the bounds of integration or check your function for singularities. (in '/home/undercover/teaching/internships/ia/2022-23/Code/model/fQ-LCDM/SS+SnIa.stan', line 51, column 4 to column 117)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: Error in function tanh_sinh<double>::integrate: The tanh_sinh quadrature evaluated your function at a singular point and got -nan. Please narrow the bounds of integration or check your function for singularities. (in '/home/undercover/teaching/internships/ia/2022-23/Code/model/fQ-LCDM/SS+SnIa.stan', line 51, column 4 to column 117)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: Error in function tanh_sinh<double>::integrate: The tanh_sinh quadrature evaluated your function at a singular point and got -nan. Please narrow the bounds of integration or check your function for singularities. (in '/home/undercover/teaching/internships/ia/2022-23/Code/model/fQ-LCDM/SS+SnIa.stan', line 51, column 4 to column 117)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: integrate: error estimate of integral 3.08826e-06 exceeds the given relative tolerance times norm of integral (in '/home/undercover/teaching/internships/ia/2022-23/Code/model/fQ-LCDM/SS+SnIa.stan', line 51, column 4 to column 117)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: integrate: error estimate of integral 7.41872e-06 exceeds the given relative tolerance times norm of integral (in '/home/undercover/teaching/internships/ia/2022-23/Code/model/fQ-LCDM/SS+SnIa.stan', line 51, column 4 to column 117)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: integrate: error estimate of integral 9.06773e-06 exceeds the given relative tolerance times norm of integral (in '/home/undercover/teaching/internships/ia/2022-23/Code/model/fQ-LCDM/SS+SnIa.stan', line 51, column 4 to column 117)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Chain [3] Iteration:    1 / 2000 [  0%]  (Warmup)
+Chain [1] Iteration:    1 / 2000 [  0%]  (Warmup)
+Chain [4] Iteration:    1 / 2000 [  0%]  (Warmup)
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: Error in function tanh_sinh<double>::integrate: The tanh_sinh quadrature evaluated your function at a singular point and got -nan. Please narrow the bounds of integration or check your function for singularities. (in '/home/undercover/teaching/internships/ia/2022-23/Code/model/fQ-LCDM/SS+SnIa.stan', line 51, column 4 to column 117)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: Error in function tanh_sinh<double>::integrate: The tanh_sinh quadrature evaluated your function at a singular point and got -nan. Please narrow the bounds of integration or check your function for singularities. (in '/home/undercover/teaching/internships/ia/2022-23/Code/model/fQ-LCDM/SS+SnIa.stan', line 51, column 4 to column 117)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: Error in function tanh_sinh<double>::integrate: The tanh_sinh quadrature evaluated your function at a singular point and got -nan. Please narrow the bounds of integration or check your function for singularities. (in '/home/undercover/teaching/internships/ia/2022-23/Code/model/fQ-LCDM/SS+SnIa.stan', line 51, column 4 to column 117)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: Error in function tanh_sinh<double>::integrate: The tanh_sinh quadrature evaluated your function at a singular point and got -nan. Please narrow the bounds of integration or check your function for singularities. (in '/home/undercover/teaching/internships/ia/2022-23/Code/model/fQ-LCDM/SS+SnIa.stan', line 51, column 4 to column 117)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: Error in function tanh_sinh<double>::integrate: The tanh_sinh quadrature evaluated your function at a singular point and got -nan. Please narrow the bounds of integration or check your function for singularities. (in '/home/undercover/teaching/internships/ia/2022-23/Code/model/fQ-LCDM/SS+SnIa.stan', line 51, column 4 to column 117)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: Error in function tanh_sinh<double>::integrate: The tanh_sinh quadrature evaluated your function at a singular point and got -nan. Please narrow the bounds of integration or check your function for singularities. (in '/home/undercover/teaching/internships/ia/2022-23/Code/model/fQ-LCDM/SS+SnIa.stan', line 51, column 4 to column 117)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: Error in function tanh_sinh<double>::integrate: The tanh_sinh quadrature evaluated your function at a singular point and got -nan. Please narrow the bounds of integration or check your function for singularities. (in '/home/undercover/teaching/internships/ia/2022-23/Code/model/fQ-LCDM/SS+SnIa.stan', line 51, column 4 to column 117)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: Error in function tanh_sinh<double>::integrate: The tanh_sinh quadrature evaluated your function at a singular point and got -nan. Please narrow the bounds of integration or check your function for singularities. (in '/home/undercover/teaching/internships/ia/2022-23/Code/model/fQ-LCDM/SS+SnIa.stan', line 51, column 4 to column 117)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: integrate: error estimate of integral 1.11287e-05 exceeds the given relative tolerance times norm of integral (in '/home/undercover/teaching/internships/ia/2022-23/Code/model/fQ-LCDM/SS+SnIa.stan', line 51, column 4 to column 117)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Chain [2] Iteration:    1 / 2000 [  0%]  (Warmup)
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: Error in function tanh_sinh<double>::integrate: The tanh_sinh quadrature evaluated your function at a singular point and got -nan. Please narrow the bounds of integration or check your function for singularities. (in '/home/undercover/teaching/internships/ia/2022-23/Code/model/fQ-LCDM/SS+SnIa.stan', line 51, column 4 to column 117)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: Error in function tanh_sinh<double>::integrate: The tanh_sinh quadrature evaluated your function at a singular point and got -nan. Please narrow the bounds of integration or check your function for singularities. (in '/home/undercover/teaching/internships/ia/2022-23/Code/model/fQ-LCDM/SS+SnIa.stan', line 51, column 4 to column 117)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: Error in function tanh_sinh<double>::integrate: The tanh_sinh quadrature evaluated your function at a singular point and got -nan. Please narrow the bounds of integration or check your function for singularities. (in '/home/undercover/teaching/internships/ia/2022-23/Code/model/fQ-LCDM/SS+SnIa.stan', line 51, column 4 to column 117)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Chain [1] Iteration:  100 / 2000 [  5%]  (Warmup)
+Chain [2] Iteration:  100 / 2000 [  5%]  (Warmup)
+Chain [4] Iteration:  100 / 2000 [  5%]  (Warmup)
+Chain [3] Iteration:  100 / 2000 [  5%]  (Warmup)
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: integrate: error estimate of integral 1.76423e-05 exceeds the given relative tolerance times norm of integral (in '/home/undercover/teaching/internships/ia/2022-23/Code/model/fQ-LCDM/SS+SnIa.stan', line 51, column 4 to column 117)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: integrate: error estimate of integral 4.94679e-05 exceeds the given relative tolerance times norm of integral (in '/home/undercover/teaching/internships/ia/2022-23/Code/model/fQ-LCDM/SS+SnIa.stan', line 51, column 4 to column 117)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Chain [1] Iteration:  200 / 2000 [ 10%]  (Warmup)
+Chain [4] Iteration:  200 / 2000 [ 10%]  (Warmup)
+Chain [2] Iteration:  200 / 2000 [ 10%]  (Warmup)
+Chain [3] Iteration:  200 / 2000 [ 10%]  (Warmup)
+Chain [1] Iteration:  300 / 2000 [ 15%]  (Warmup)
+Chain [4] Iteration:  300 / 2000 [ 15%]  (Warmup)
+Chain [2] Iteration:  300 / 2000 [ 15%]  (Warmup)
+Chain [3] Iteration:  300 / 2000 [ 15%]  (Warmup)
+Chain [1] Iteration:  400 / 2000 [ 20%]  (Warmup)
+Chain [4] Iteration:  400 / 2000 [ 20%]  (Warmup)
+Chain [2] Iteration:  400 / 2000 [ 20%]  (Warmup)
+Chain [3] Iteration:  400 / 2000 [ 20%]  (Warmup)
+Chain [1] Iteration:  500 / 2000 [ 25%]  (Warmup)
+Chain [4] Iteration:  500 / 2000 [ 25%]  (Warmup)
+Chain [2] Iteration:  500 / 2000 [ 25%]  (Warmup)
+Chain [3] Iteration:  500 / 2000 [ 25%]  (Warmup)
+Chain [4] Iteration:  600 / 2000 [ 30%]  (Warmup)
+Chain [1] Iteration:  600 / 2000 [ 30%]  (Warmup)
+Chain [2] Iteration:  600 / 2000 [ 30%]  (Warmup)
+Chain [4] Iteration:  700 / 2000 [ 35%]  (Warmup)
+Chain [3] Iteration:  600 / 2000 [ 30%]  (Warmup)
+Chain [1] Iteration:  700 / 2000 [ 35%]  (Warmup)
+Chain [2] Iteration:  700 / 2000 [ 35%]  (Warmup)
+Chain [4] Iteration:  800 / 2000 [ 40%]  (Warmup)
+Chain [3] Iteration:  700 / 2000 [ 35%]  (Warmup)
+Chain [1] Iteration:  800 / 2000 [ 40%]  (Warmup)
+Chain [4] Iteration:  900 / 2000 [ 45%]  (Warmup)
+Chain [2] Iteration:  800 / 2000 [ 40%]  (Warmup)
+Chain [3] Iteration:  800 / 2000 [ 40%]  (Warmup)
+Chain [1] Iteration:  900 / 2000 [ 45%]  (Warmup)
+Chain [3] Iteration:  900 / 2000 [ 45%]  (Warmup)
+Chain [2] Iteration:  900 / 2000 [ 45%]  (Warmup)
+Chain [4] Iteration: 1000 / 2000 [ 50%]  (Warmup)
+Chain [4] Iteration: 1001 / 2000 [ 50%]  (Sampling)
+Chain [1] Iteration: 1000 / 2000 [ 50%]  (Warmup)
+Chain [1] Iteration: 1001 / 2000 [ 50%]  (Sampling)
+Chain [2] Iteration: 1000 / 2000 [ 50%]  (Warmup)
+Chain [2] Iteration: 1001 / 2000 [ 50%]  (Sampling)
+Chain [3] Iteration: 1000 / 2000 [ 50%]  (Warmup)
+Chain [3] Iteration: 1001 / 2000 [ 50%]  (Sampling)
+Chain [4] Iteration: 1100 / 2000 [ 55%]  (Sampling)
+Chain [1] Iteration: 1100 / 2000 [ 55%]  (Sampling)
+Chain [3] Iteration: 1100 / 2000 [ 55%]  (Sampling)
+Chain [2] Iteration: 1100 / 2000 [ 55%]  (Sampling)
+Chain [4] Iteration: 1200 / 2000 [ 60%]  (Sampling)
+Chain [1] Iteration: 1200 / 2000 [ 60%]  (Sampling)
+Chain [3] Iteration: 1200 / 2000 [ 60%]  (Sampling)
+Chain [2] Iteration: 1200 / 2000 [ 60%]  (Sampling)
+Chain [4] Iteration: 1300 / 2000 [ 65%]  (Sampling)
+Chain [1] Iteration: 1300 / 2000 [ 65%]  (Sampling)
+Chain [3] Iteration: 1300 / 2000 [ 65%]  (Sampling)
+Chain [2] Iteration: 1300 / 2000 [ 65%]  (Sampling)
+Chain [4] Iteration: 1400 / 2000 [ 70%]  (Sampling)
+Chain [3] Iteration: 1400 / 2000 [ 70%]  (Sampling)
+Chain [1] Iteration: 1400 / 2000 [ 70%]  (Sampling)
+Chain [2] Iteration: 1400 / 2000 [ 70%]  (Sampling)
+Chain [3] Iteration: 1500 / 2000 [ 75%]  (Sampling)
+Chain [1] Iteration: 1500 / 2000 [ 75%]  (Sampling)
+Chain [4] Iteration: 1500 / 2000 [ 75%]  (Sampling)
+Chain [2] Iteration: 1500 / 2000 [ 75%]  (Sampling)
+Chain [3] Iteration: 1600 / 2000 [ 80%]  (Sampling)
+Chain [1] Iteration: 1600 / 2000 [ 80%]  (Sampling)
+Chain [4] Iteration: 1600 / 2000 [ 80%]  (Sampling)
+Chain [2] Iteration: 1600 / 2000 [ 80%]  (Sampling)
+Chain [3] Iteration: 1700 / 2000 [ 85%]  (Sampling)
+Chain [1] Iteration: 1700 / 2000 [ 85%]  (Sampling)
+Chain [2] Iteration: 1700 / 2000 [ 85%]  (Sampling)
+Chain [4] Iteration: 1700 / 2000 [ 85%]  (Sampling)
+Chain [3] Iteration: 1800 / 2000 [ 90%]  (Sampling)
+Chain [1] Iteration: 1800 / 2000 [ 90%]  (Sampling)
+Chain [2] Iteration: 1800 / 2000 [ 90%]  (Sampling)
+Chain [4] Iteration: 1800 / 2000 [ 90%]  (Sampling)
+Chain [3] Iteration: 1900 / 2000 [ 95%]  (Sampling)
+Chain [2] Iteration: 1900 / 2000 [ 95%]  (Sampling)
+Chain [1] Iteration: 1900 / 2000 [ 95%]  (Sampling)
+Chain [4] Iteration: 1900 / 2000 [ 95%]  (Sampling)
+Chain [3] Iteration: 2000 / 2000 [100%]  (Sampling)
+
+ Elapsed Time: 616.902 seconds (Warm-up)
+               506.142 seconds (Sampling)
+               1123.04 seconds (Total)
+
+Chain [2] Iteration: 2000 / 2000 [100%]  (Sampling)
+
+ Elapsed Time: 615.157 seconds (Warm-up)
+               525.304 seconds (Sampling)
+               1140.46 seconds (Total)
+
+Chain [4] Iteration: 2000 / 2000 [100%]  (Sampling)
+
+ Elapsed Time: 576.825 seconds (Warm-up)
+               576.565 seconds (Sampling)
+               1153.39 seconds (Total)
+
+Chain [1] Iteration: 2000 / 2000 [100%]  (Sampling)
+
+ Elapsed Time: 590.727 seconds (Warm-up)
+               563.141 seconds (Sampling)
+               1153.87 seconds (Total)
+
